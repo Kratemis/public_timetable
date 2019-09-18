@@ -89,6 +89,9 @@ CRONTAB
 
 Remember that the hour of the server could be different than yours
 
+## Constants
+
+You have a constants table that can be edited in the frontend. It controls the week generations.
 
 # How to deploy the app.
 
@@ -118,6 +121,10 @@ $ composer install
 DB configurations params are in common/config/main-local.php. This file is created by the initialization of the framework the php init command.
 
 You have the structure of the DB in the repo: db.sql
+
+## Common errors
+
+- Ask Sergio and add here
 
 
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
