@@ -58,6 +58,26 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+
+
+### Notes: 
+
+- Frontend folder has been deleted cause is not in use
+
+# How to launch the timetable script
+
+```bash
+$ php yii main NUMBER_OF_WEEK
+```
+
+Example:
+```bash
+$ php yii main 4
+```
+
+This execute the 4th week of the year.
+
+For automatic generation, you have the crontab options here:
 ```bash
 CRONTAB 
 30 17 * * 0,1,2,3,4,5 /usr/bin/php /root/timetable/yii mail > /home/logs/mail`date +\%y\%m\%d\%H\%M`.log 2>&1
@@ -66,6 +86,9 @@ CRONTAB
 00 * * * * /usr/bin/php /root/timetable/yii main/set-number-of-week
 00 8 * * 1 /usr/bin/php /root/timetable/yii mail/guards-mail > /home/logs/timetable/mail-guards`date +\%y\%m\%d\%H\%M`.log 2>&1
 ```
+
+Remember that the hour of the server could be different than yours
+
 
 # How to deploy the app.
 
