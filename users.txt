@@ -1,0 +1,964 @@
+array(13) {
+  [0]=>
+  object(backend\models\Person)#33 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(6)
+      ["name"]=>
+      string(6) "Javier"
+      ["surname"]=>
+      string(5) "Rubio"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(0)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(6)
+      ["name"]=>
+      string(6) "Javier"
+      ["surname"]=>
+      string(5) "Rubio"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(0)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [1]=>
+  object(backend\models\Person)#46 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(13)
+      ["name"]=>
+      string(4) "Luis"
+      ["surname"]=>
+      string(8) "Álvarez"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(0)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(13)
+      ["name"]=>
+      string(4) "Luis"
+      ["surname"]=>
+      string(8) "Álvarez"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(0)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [2]=>
+  object(backend\models\Person)#47 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(6) "Sergio"
+      ["surname"]=>
+      string(7) "Esteban"
+      ["email"]=>
+      string(20) "sergioheee@gmail.com"
+      ["send_email"]=>
+      int(1)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(1)
+      ["name"]=>
+      string(6) "Sergio"
+      ["surname"]=>
+      string(7) "Esteban"
+      ["email"]=>
+      string(20) "sergioheee@gmail.com"
+      ["send_email"]=>
+      int(1)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [3]=>
+  object(backend\models\Person)#48 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(5) "Aaron"
+      ["surname"]=>
+      string(6) "Durán"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(2)
+      ["name"]=>
+      string(5) "Aaron"
+      ["surname"]=>
+      string(6) "Durán"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [4]=>
+  object(backend\models\Person)#49 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(7) "Gabriel"
+      ["surname"]=>
+      string(7) "Lacosta"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(62)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(3)
+      ["name"]=>
+      string(7) "Gabriel"
+      ["surname"]=>
+      string(7) "Lacosta"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(62)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [5]=>
+  object(backend\models\Person)#50 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(14) "Carlos Alberto"
+      ["surname"]=>
+      string(3) "Gil"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(62)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(4)
+      ["name"]=>
+      string(14) "Carlos Alberto"
+      ["surname"]=>
+      string(3) "Gil"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(62)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [6]=>
+  object(backend\models\Person)#51 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(5)
+      ["name"]=>
+      string(7) "Andrés"
+      ["surname"]=>
+      string(9) "Quinteiro"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(57)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(5)
+      ["name"]=>
+      string(7) "Andrés"
+      ["surname"]=>
+      string(9) "Quinteiro"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(10)
+      ["timesReduced"]=>
+      int(57)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [7]=>
+  object(backend\models\Person)#52 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(7)
+      ["name"]=>
+      string(5) "Pilar"
+      ["surname"]=>
+      string(8) "Torralbo"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(7)
+      ["name"]=>
+      string(5) "Pilar"
+      ["surname"]=>
+      string(8) "Torralbo"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [8]=>
+  object(backend\models\Person)#53 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(8)
+      ["name"]=>
+      string(9) "Guillermo"
+      ["surname"]=>
+      string(6) "Grande"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(8)
+      ["name"]=>
+      string(9) "Guillermo"
+      ["surname"]=>
+      string(6) "Grande"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [9]=>
+  object(backend\models\Person)#54 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(9)
+      ["name"]=>
+      string(6) "Samuel"
+      ["surname"]=>
+      string(6) "Romero"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(9)
+      ["name"]=>
+      string(6) "Samuel"
+      ["surname"]=>
+      string(6) "Romero"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [10]=>
+  object(backend\models\Person)#55 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(10)
+      ["name"]=>
+      string(13) "Miguel Ángel"
+      ["surname"]=>
+      string(9) "Caballero"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(10)
+      ["name"]=>
+      string(13) "Miguel Ángel"
+      ["surname"]=>
+      string(9) "Caballero"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(5)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [11]=>
+  object(backend\models\Person)#56 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(11)
+      ["name"]=>
+      string(6) "Miguel"
+      ["surname"]=>
+      string(6) "Artola"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(11)
+      ["name"]=>
+      string(6) "Miguel"
+      ["surname"]=>
+      string(6) "Artola"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(60)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(1)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+  [12]=>
+  object(backend\models\Person)#57 (10) {
+    ["_attributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(12)
+      ["name"]=>
+      string(7) "Andrés"
+      ["surname"]=>
+      string(7) "Martín"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(7)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_oldAttributes":"yii\db\BaseActiveRecord":private]=>
+    array(11) {
+      ["id"]=>
+      int(12)
+      ["name"]=>
+      string(7) "Andrés"
+      ["surname"]=>
+      string(7) "Martín"
+      ["email"]=>
+      NULL
+      ["send_email"]=>
+      int(0)
+      ["timesSix"]=>
+      int(0)
+      ["timesReduced"]=>
+      int(7)
+      ["timesFridays"]=>
+      int(0)
+      ["veteran"]=>
+      int(0)
+      ["created_at"]=>
+      int(1548524165)
+      ["updated_at"]=>
+      int(1548524165)
+    }
+    ["_related":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_relationsDependencies":"yii\db\BaseActiveRecord":private]=>
+    array(0) {
+    }
+    ["_errors":"yii\base\Model":private]=>
+    NULL
+    ["_validators":"yii\base\Model":private]=>
+    NULL
+    ["_scenario":"yii\base\Model":private]=>
+    string(7) "default"
+    ["_events":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_eventWildcards":"yii\base\Component":private]=>
+    array(0) {
+    }
+    ["_behaviors":"yii\base\Component":private]=>
+    array(0) {
+    }
+  }
+}
