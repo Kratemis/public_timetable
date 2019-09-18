@@ -67,5 +67,27 @@ CRONTAB
 00 8 * * 1 /usr/bin/php /root/timetable/yii mail/guards-mail > /home/logs/timetable/mail-guards`date +\%y\%m\%d\%H\%M`.log 2>&1
 ```
 
+# How to deploy the app.
+
+The app have to be deployed like a normal Yii2 App.
+
+After you have the code in the repository, you have to do:
+
+```bash
+$ php init
+```
+
+The frameworks asks you for the enviroment that you are deploying (Development or Production).
+
+After that you have to install all the dependencies:
+
+```bash
+$ composer install
+```
+
+DB configurations params are in common/config/main-local.php. This file is created by the initialization of the framework the php init command.
+
+You have the structure of the DB in the repo: db.sql
+
 
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
