@@ -69,6 +69,13 @@ CRONTAB
 
 # How to deploy the app.
 
+## Prerequisites
+
+- LAMP.
+- Composer.
+
+## Tutorial
+
 The app have to be deployed like a normal Yii2 App.
 
 After you have the code in the repository, you have to do:
