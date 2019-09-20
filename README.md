@@ -99,6 +99,12 @@ You have a constants table that can be edited in the frontend. It controls the w
 
 - LAMP.
 - Composer.
+- mbstring, dom and curl extensions installed for PHP 7.2.19
+   ```bash
+     sudo apt-get install php7.2-dom
+     sudo apt-get install php7.2-curl
+     sudo apt-get install php7.2-mbstring
+    ``` 
 
 ## Tutorial
 
